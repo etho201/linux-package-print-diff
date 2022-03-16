@@ -1,0 +1,11 @@
+acl.x86_64                                                             2.2.53-1.el8                                                  @System                                
+audit-libs.x86_64                                                      3.0-0.17.20191104git1c2f876.el8                               @System                                
+basesystem.noarch                                                      11-5.el8                                                      @System                                
+bash.x86_64                                                            4.4.20-2.el8                                                  @System                                
+bind-export-libs.x86_64                                                32:9.11.26-6.el8                                              @System                                
+brotli.x86_64                                                          1.0.6-3.el8                                                   @System                                
+bzip2-libs.x86_64                                                      1.0.6-26.el8                                                  @System                                
+ca-certificates.noarch                                                 2021.2.50-80.0.el8_4                                          @System                                
+chkconfig.x86_64                                                       1.19.1-1.0.1.el8                                              @System                                
+coreutils.x86_64                                                       8.30-12.0.1.el8                                               @System                                
+coreutils-common.x86_64                                                8.30-12.0.1.el8                                               @System                                

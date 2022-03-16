@@ -1,0 +1,11 @@
+acl
+audit-libs
+basesystem
+bash
+bind-export-libs
+brotli
+bzip2-libs
+ca-certificates
+chkconfig
+coreutils
+coreutils-common
