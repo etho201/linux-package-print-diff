@@ -2,8 +2,8 @@ import re, argparse, pathlib
 
 parser=argparse.ArgumentParser(prog='scrub.py', formatter_class=lambda prog: argparse.HelpFormatter(prog,max_help_position=40))
 parser.add_argument('-i', '--input', help='Specify the file to scrub')
-parser.add_argument('-1', '--scrub1', help='Specify the file to scrub', action='store_true')
-parser.add_argument('-2', '--scrub2', help='Specify the file to scrub', action='store_true')
+parser.add_argument('-1', '--scrub1', help='Filters out the first period and everthing after it', action='store_true')
+parser.add_argument('-2', '--scrub2', help='Filters out the dash and version number after the package name', action='store_true')
 args=parser.parse_args()
 
 with open(args.input, 'r+') as f:
