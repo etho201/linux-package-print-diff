@@ -7,7 +7,7 @@ Leverage this [repo](https://github.com/etho201/vagrant-boxes/tree/main/uln-sear
     ```bash
     python3 scrub.py -2 -i work_dir/packages.required
     ```
-    > scrub.py `-2` filters out the version number after the package name
+    > scrub.py `-2` filters out the dash and version number after the package name
     >
     > Example: `cups-2.3.3op2-11.fc34.x86_64` becomes `cups`
 
@@ -17,7 +17,7 @@ Leverage this [repo](https://github.com/etho201/vagrant-boxes/tree/main/uln-sear
     python3 scrub.py -1 -i work_dir/uln-packages.txt
     ```
 
-    > scrub.py `-1` filters out everthing after the first period of a package name
+    > scrub.py `-1` filters out the first period and everthing after it
     >
     > Example: `cups.x86_64` becomes `cups`
 
